@@ -23,7 +23,7 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "eslint-plugin-jsdoc": "30.2.4"
+    "eslint-plugin-jsdoc": "30.3.0"
   },
   "devDependencies": {
     "eslint": "7.7.0",
