@@ -27,7 +27,7 @@
     "eslint-plugin-jsdoc": "30.7.6"
   },
   "devDependencies": {
-    "eslint": "7.11.0",
+    "eslint": "7.12.1",
     "prettier-config-web-scrobbler": "0.1.0"
   },
   "peerDependencies": {
