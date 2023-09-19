@@ -4,7 +4,6 @@ module.exports = {
 		node: true,
 	},
 	extends: ['eslint:recommended'],
-	plugins: ['jsdoc'],
 	rules: {
 		/*
 		 * Possible errors
@@ -90,7 +89,7 @@ module.exports = {
 		'no-var': 'error',
 
 		// Require method and property shorthand syntax for object literals
-		'object-shorthand': ['error', 'consistent-as-needed'],
+		'object-shorthand': ['error', 'always'],
 
 		// Require `const` declarations for variables
 		// that are never reassigned after declared
@@ -101,20 +100,5 @@ module.exports = {
 
 		// Disallow spacing around embedded expressions of template strings
 		'template-curly-spacing': 'error',
-
-		/*
-		 * JSDoc plugin
-		 */
-
-		'jsdoc/check-param-names': 'warn',
-		'jsdoc/check-syntax': 'warn',
-		'jsdoc/check-tag-names': 'warn',
-		'jsdoc/check-types': ['warn', { noDefaults: true }],
-		'jsdoc/require-param': 'warn',
-		'jsdoc/require-param-description': 'warn',
-		'jsdoc/require-param-name': 'warn',
-		'jsdoc/require-returns-check': 'warn',
-		'jsdoc/require-returns-description': 'warn',
-		'jsdoc/valid-types': 'warn',
 	},
 };

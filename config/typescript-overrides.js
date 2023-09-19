@@ -1,4 +1,5 @@
 module.exports = {
+	plugins: ['@typescript-eslint', 'eslint-plugin-tsdoc'],
 	files: ['*.ts', '*.tsx'],
 	extends: [
 		'plugin:@typescript-eslint/eslint-recommended',
@@ -13,8 +14,9 @@ module.exports = {
 		project: 'tsconfig.json',
 		tsconfigRootDir: '.',
 	},
-	plugins: ['@typescript-eslint'],
 	rules: {
+		'prefer-const': ['error', { destructuring: 'all' }],
+		'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
 		'@typescript-eslint/ban-ts-comment': 'off',
 		'@typescript-eslint/no-unused-vars': 'off',
 		'@typescript-eslint/no-floating-promises': 'off',
@@ -22,6 +24,6 @@ module.exports = {
 			'error',
 			{ allowAny: true },
 		],
-		'jsdoc/no-types': 'warn',
+		'tsdoc/syntax': 'warn',
 	},
 };
