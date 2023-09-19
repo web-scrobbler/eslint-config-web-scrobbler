@@ -4,10 +4,10 @@ ESLint configuration file for Web Scrobbler projects.
 
 ## Usage
 
-You can install `eslint-config-web-scrobbler` by a following way:
+You can install `@web-scrobbler/eslint-config` by a following way:
 
 ```sh
-> npm install --save-dev eslint-config-web-scrobbler
+> npm install --save-dev @web-scrobbler/eslint-config
 ```
 
 ### JavaScript
@@ -66,10 +66,10 @@ Licensed under the [MIT License](./LICENSE).
 
 <!-- Badges -->
 
-[npm-badge]: https://img.shields.io/npm/v/eslint-config-web-scrobbler
+[npm-badge]: https://img.shields.io/npm/v/@web-scrobbler/eslint-config
 [workflow-badge]: https://github.com/web-scrobbler/eslint-config-web-scrobbler/workflows/Lint/badge.svg
 
 <!-- Related pages -->
 
-[npm]: https://www.npmjs.com/package/eslint-config-web-scrobbler
+[npm]: https://www.npmjs.com/package/@web-scrobbler/eslint-config
 [workflow]: https://github.com/web-scrobbler/eslint-config-web-scrobbler/actions?query=workflow%3ALint
