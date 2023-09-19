@@ -1,4 +1,4 @@
-# eslint-config-web-scrobbler [![NPM][npm-badge]][npm] [![Test][workflow-badge]][workflow]
+# @web-scrobbler/eslint-config [![NPM][npm-badge]][npm] [![Test][workflow-badge]][workflow]
 
 ESLint configuration file for Web Scrobbler projects.
 
