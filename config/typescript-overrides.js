@@ -24,6 +24,7 @@ module.exports = {
 			'error',
 			{ allowAny: true },
 		],
+		'@typescript-eslint/consistent-type-imports': 'error',
 		'tsdoc/syntax': 'warn',
 	},
 };
