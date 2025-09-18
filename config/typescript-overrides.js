@@ -12,7 +12,8 @@ module.exports = {
 			jsx: true,
 		},
 		project: 'tsconfig.json',
-		tsconfigRootDir: '.',
+		projectService: true,
+		tsconfigRootDir: __dirname,
 	},
 	rules: {
 		'prefer-const': ['error', { destructuring: 'all' }],
