@@ -37,7 +37,7 @@
     "eslint-plugin-jsdoc": ">=46.6.0",
     "eslint-plugin-react": ">=7.33.2",
     "eslint-plugin-solid": ">=0.13.0",
-    "eslint-plugin-tsdoc": "^0.2.17"
+    "eslint-plugin-tsdoc": ">=0.2.17"
   },
   "scripts": {
     "lint": "eslint --config index.js \"**/*.js\"",
