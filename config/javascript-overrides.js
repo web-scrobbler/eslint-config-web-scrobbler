@@ -1,12 +1,16 @@
+const jsdoc = require('eslint-plugin-jsdoc');
+
 module.exports = {
-	plugins: ['jsdoc'],
+	plugins: { jsdoc },
 	files: ['*.js', '*.jsx'],
-	parserOptions: {
-		ecmaFeatures: {
-			jsx: true,
-		},
-		ecmaVersion: '2017',
+	languageOptions: {
+		ecmaVersion: 2017,
 		sourceType: 'module',
+		parserOptions: {
+			ecmaFeatures: {
+				jsx: true,
+			},
+		},
 	},
 	rules: {
 		strict: ['error', 'global'],
