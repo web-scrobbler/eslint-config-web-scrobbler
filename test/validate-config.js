@@ -1,4 +1,4 @@
-const { CLIEngine } = require('eslint');
+const { ESLint } = require('eslint');
 const test = require('tape');
 
 const javaScriptCode =
@@ -7,13 +7,12 @@ const javaScriptCode =
 testConfig('should have valid config', 'index.js', javaScriptCode);
 
 function testConfig(description, configFilePath, codeSample) {
-	test(description, (t) => {
-		const cli = new CLIEngine({
-			useEslintrc: false,
-			configFile: configFilePath,
+	test(description, async (t) => {
+		const cli = new ESLint({
+			overrideConfigFile: configFilePath,
 		});
 
-		const { errorCount } = cli.executeOnText(codeSample);
+		const [{ errorCount }] = await cli.lintText(codeSample);
 
 		t.equal(errorCount, 0);
 		t.end();
