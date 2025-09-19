@@ -1,7 +1,11 @@
+const solid = require('eslint-plugin-solid');
+const react = require('eslint-plugin-react');
+
 module.exports = {
 	files: ['*.tsx'],
-	plugins: ['solid', 'react'],
-	extends: ['plugin:solid/recommended', 'plugin:react/recommended'],
+	plugins: { solid, react },
+	...solid.configs.typescript,
+	...react.configs.flat.recommended,
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaFeatures: {

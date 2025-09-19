@@ -7,5 +7,5 @@ module.exports = [
 	...baseRules,
 	javaScriptOverrides,
 	solidOverrides,
-	typeScriptOverrides,
+	...typeScriptOverrides,
 ];
