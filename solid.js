@@ -1,9 +1,9 @@
-const baseRules = require('./config/base-rules');
-const javaScriptOverrides = require('./config/javascript-overrides');
-const typeScriptOverrides = require('./config/typescript-overrides');
-const solidOverrides = require('./config/solid-overrides');
+import baseRules from './config/base-rules.js';
+import javaScriptOverrides from './config/javascript-overrides.js';
+import typeScriptOverrides from './config/typescript-overrides.js';
+import solidOverrides from './config/solid-overrides.js';
 
-module.exports = [
+export default [
 	...baseRules,
 	javaScriptOverrides,
 	solidOverrides,

@@ -1,4 +1,4 @@
-const baseRules = require('./config/base-rules');
-const jsOverrides = require('./config/javascript-overrides');
+import baseRules from './config/base-rules.js';
+import jsOverrides from './config/javascript-overrides.js';
 
-module.exports = [...baseRules, jsOverrides];
+export default [...baseRules, jsOverrides];

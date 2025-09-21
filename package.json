@@ -4,6 +4,7 @@
   "author": "Alexey <alex.esprit@gmail.com>",
   "description": "ESLint configuration file for Web Scrobbler projects",
   "license": "MIT",
+  "type": "module",
   "main": "index.js",
   "files": [
     "index.js",
