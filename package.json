@@ -1,6 +1,6 @@
 {
   "name": "@web-scrobbler/eslint-config",
-  "version": "4.0.0-rc2",
+  "version": "4.0.0-rc3",
   "author": "Alexey <alex.esprit@gmail.com>",
   "description": "ESLint configuration file for Web Scrobbler projects",
   "license": "MIT",
