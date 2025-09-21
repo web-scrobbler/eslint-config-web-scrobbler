@@ -1,5 +1,5 @@
-const { ESLint } = require('eslint');
-const test = require('tape');
+import { ESLint } from 'eslint';
+import test from 'tape';
 
 const javaScriptCode =
 	'const foo = 1;\nconst bar = function () {\n	return 1;\n};\nbar(foo);\n';
