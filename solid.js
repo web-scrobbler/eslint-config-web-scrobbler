@@ -1,4 +1,4 @@
-import baseRules from './config/base-rules';n
+import baseRules from './config/base-rules';
 import javaScriptOverrides from './config/javascript-overrides';
 import typeScriptOverrides from './config/typescript-overrides';
 import solidOverrides from './config/solid-overrides';
