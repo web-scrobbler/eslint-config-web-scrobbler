@@ -1,7 +1,7 @@
-const solid = require('eslint-plugin-solid');
-const react = require('eslint-plugin-react');
+import solid from 'eslint-plugin-solid';
+import react from 'eslint-plugin-react';
 
-module.exports = {
+export default {
 	files: ['*.tsx'],
 	plugins: { solid, react },
 	...solid.configs.typescript,

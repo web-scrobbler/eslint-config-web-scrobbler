@@ -1,9 +1,9 @@
-const tsEslint = require('typescript-eslint');
-const tsdoc = require('eslint-plugin-tsdoc');
-const eslint = require('@eslint/js');
-const { defineConfig } = require('eslint/config');
+import tsEslint from 'typescript-eslint';
+import tsdoc from 'eslint-plugin-tsdoc';
+import eslint from '@eslint/js';
+import { defineConfig } from 'eslint/config';
 
-module.exports = defineConfig(
+export default defineConfig(
 	eslint.configs.recommended,
 	tsEslint.configs.recommended,
 	{
